@@ -2,3 +2,6 @@ name = "gss"
 uuid = "d84c021c-dc4e-460a-9c15-50e74e7a1280"
 authors = ["oline "]
 version = "0.1.0"
+
+[deps]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"

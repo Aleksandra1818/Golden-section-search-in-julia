@@ -21,7 +21,7 @@ function goldss(f,a,b;ϵ=1e-6,τ=0.618)
     end
     xsr=(x1+x2)/2
     wart=f(xsr)
-    println("Wartosc: ", round(wart,digits=3)," dla punktu ",round(xsr,digits=2))
+    return(round(xsr,digits=2),round(wart,digits=3))
 end
 
 export goldss
